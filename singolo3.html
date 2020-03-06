@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="singolo3.css">
+    <title>singolo1</title>
+</head>
+<body>
+    <main>
+        <section class="get-quote">
+            <h2>Get a Quote</h2>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+            non commodo luctus, nisi erat tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+            non commodo luctus, nisi erat</p>
+               
+            <form action="singolo.php" method="POST" class="form-items">
+                  
+                
+                <input required type="text" placeholder="Name (Required)" name="name"  pattern="[a-zA-Z0-9а-яА-Я]+" minlength="4" maxlength="30"/>
+                <input required type="mail" placeholder="Email (Required)" name="mail" pattern="^\S+@\S+\.\S+$"/>
+                <input type="text" placeholder="Subject" name="subject"/>
+                <textarea  placeholder="Describe your project in detail..." 
+                name="describe" ></textarea> 
+                        
+                <input type="submit" value="Subscribe">
+                    
+            </form>
+            
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+                    non commodo luctus, nisi erat tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+                    non commodo luctus, nisi erat non commodo luctus, nisi erat tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+                    non commodo luctus, nisi erat </p>
+                    
+                <div class="contact-item">
+
+                       
+                    <div class="contact-image">
+                        <span><img src="./assets/location.png" alt="location"></span>
+                        <span><img src="./assets/tel.png" alt="tel"></span>
+                        <span><img src="./assets/mail.png" alt="mail"></span>
+                    </div>
+                        
+                    <div class="contact-name">
+                        <span>Elm St. 14/05 Lost City</span>
+                        <span><a href="tel">03528 331 86 35</a></span>
+                        <span><a href="mail">info@singolo.com</a></span>
+                    </div>
+                                      
+                </div>
+
+            </div>
+           
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>©Copyright 2013</p>
+        </div>
+        <div class="social-media">
+            <img src="./assets/facebook.png" alt="facebook">
+            <img src="./assets/google.png" alt="google">
+            <img src="./assets/twitter.png" alt="twitter">
+            <img src="./assets/linkedin.png" alt="linkedin">
+        </div>
+    </footer>
+
+</body>
+</html>
