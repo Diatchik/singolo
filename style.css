@@ -161,8 +161,8 @@ a:hover {
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-family: "Lato";
+    font-weight: 200;
     top: 113px;
     left: 40px;
     overflow: hidden;
@@ -230,6 +230,7 @@ a:hover {
     font-weight: 400;
     text-align: left;
     margin-top: 10px;
+    text-align: justify;
     overflow: hidden;
 }
 
@@ -281,6 +282,7 @@ a:hover {
     height: 30px;
     overflow: hidden;
     position: absolute;
+    
     top: 113px;
     left: 41px;
 }
@@ -468,6 +470,7 @@ a:hover {
     text-align: left;
     position: absolute;
     top: 113px;
+    overflow: hidden;
     left: 40px;
 }
 
@@ -479,6 +482,7 @@ a:hover {
     top: 218px;
     left: 40px;
     width: 940px;
+    
 }
 
 
@@ -489,6 +493,7 @@ a:hover {
     flex-flow: column nowrap;
     width: 300px;
     margin-right: 19px;
+    
 }
 
 
@@ -504,6 +509,7 @@ a:hover {
     height: 300px;
     overflow: hidden;
     margin-bottom: 17px;
+    
 }
 
 
@@ -529,12 +535,13 @@ a:hover {
     height: 40px;
     overflow: hidden;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 20px;
     color: #767e9e;
-    font-family: "Lato-Light", serif;
+    font-family: "Lato";
     font-weight: 300;
-    text-align: left;
+    text-align: justify;
     margin-bottom: 24px;
+    overflow: hidden;
 }
 
 
@@ -584,12 +591,13 @@ a:hover {
     line-height: 30px;
     color: #f0d8d9;
     font-family: "Lato";
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
     overflow: hidden;
     position: absolute;
     top: 114px;
     left: 41px;
+    letter-spacing: -0.1;
 }
 
 
@@ -681,7 +689,7 @@ input:invalid:not(:focus):not(:placeholder-shown) {
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
     position: absolute;
     top: 245px;
     left: 680px;
