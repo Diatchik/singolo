@@ -166,6 +166,7 @@ a:hover {
     top: 113px;
     left: 40px;
     overflow: hidden;
+    text-align: justify;
 }
 
 
@@ -278,11 +279,10 @@ a:hover {
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
-    text-align: left;
+    text-align: justify;
     height: 30px;
     overflow: hidden;
     position: absolute;
-    
     top: 113px;
     left: 41px;
 }
@@ -467,10 +467,10 @@ a:hover {
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
-    text-align: left;
     position: absolute;
     top: 113px;
     overflow: hidden;
+    text-align: justify;
     left: 40px;
 }
 
@@ -592,7 +592,7 @@ a:hover {
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 200;
-    text-align: left;
+    text-align: justify;
     overflow: hidden;
     position: absolute;
     top: 114px;
