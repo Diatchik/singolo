@@ -8,10 +8,10 @@ MENU.addEventListener('click', (event) => {
     event.target.classList.add('active');
 
 
-    let classForScroll = event.target.innerHTML.toLowerCase()+"";
+    let scroll = event.target.innerHTML.toLowerCase()+"";
 
     window.scrollTo({
-      top: document.querySelector(`.${classForScroll}`).offsetTop - 95,
+      top: document.querySelector(`.${scroll}`).offsetTop - 95,
       behavior: 'smooth'
     });
 
@@ -48,3 +48,38 @@ function showSlides(n) {
 }
 
 /* Slider. Активация экранов телефонов*/
+
+function ScreenActive() {
+  const iphone = document.querySelectorAll(".sliders .iphone");
+
+  iphone.forEach( ph => ph.querySelectorAll(".click").forEach( 
+    el => el.addEventListener( "click", event => {
+      
+      let display = ph.querySelector(".screen");
+
+      (display.classList.contains("unvisible")) ?display.classList.remove("unvisible") :display.classList.add("unvisible");
+    })
+
+  ));
+}
+ScreenActive();
+
+
+/* Portfolio. Взаимодействие с картинками */
+const portfolioitem = document.querySelector(".portfolio-list");
+
+let PicActive = true;
+portfolioitem.addEventListener("click", (event) => {
+  if ( event.target.classList.contains("interactive") ) {
+    PicActive = false;
+  }
+
+  portfolioitem.querySelectorAll("img").forEach(el => el.classList.remove("interactive"));
+  
+  if (PicActive) {
+    event.target.classList.add("interactive");
+  }
+
+  PicActive = true;
+});
+
